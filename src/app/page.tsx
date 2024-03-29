@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 
 const Page = () => {
   const categories = [
@@ -10,9 +9,6 @@ const Page = () => {
 
   return (
     <div className="flex h-screen bg-gray-100">
-      <Head>
-        <title>Prompt Bookmarker</title>
-      </Head>
       {/* Sidebar */}
       <div className="bg-blue-600 text-white w-64 p-4 space-y-4">
         <h1 className="text-lg font-semibold">Categories</h1>
